@@ -1,4 +1,4 @@
 {lib, ... }:
 {
-  users.users.root.hashedPassword = lib.fileContents ../../secrets/root;
+  users.users.root.hashedPassword = lib.fileContents ../../secrets/users/root;
 }

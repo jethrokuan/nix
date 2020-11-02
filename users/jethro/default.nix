@@ -19,7 +19,7 @@ in
     uid = 1000;
     description = name;
     isNormalUser = true;
-    password = "";
+    password = lib.fileContents ../../secrets/users/jethro;
     extraGroups = [ "wheel" "input" "networkmanager" ];
   };
 }
