@@ -5,7 +5,7 @@
     {
       master.url = "nixpkgs/master";
       nixos.url = "nixpkgs/master";
-      home.url = "github:rycee/home-manager/bqv-flakes";
+      home.url = "github:nix-community/home-manager";
     };
 
   outputs = inputs@{ self, home, nixos, master }:

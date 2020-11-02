@@ -1,4 +1,9 @@
 { ... }: {
   i18n.defaultLocale = "en_US.UTF-8";
-  time.timeZone = "America/Denver";
+  time.timeZone = "Asia/Singapore";
+
+  location = {
+    latitude = 1.3521;
+    longitude = 103.8198;
+  };
 }

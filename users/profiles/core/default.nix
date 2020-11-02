@@ -1,0 +1,3 @@
+{
+  imports = [ ../direnv ../emacs ../starship ];
+}

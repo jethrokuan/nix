@@ -1,1 +1,3 @@
-[ ]
+[
+  ./security/mitigations.nix
+]
